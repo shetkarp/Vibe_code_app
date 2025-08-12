@@ -1,6 +1,5 @@
-PyMuPDF
-
-streamlit 
+streamlit
+PyMuPDF 
 llama-index
 pdfplumber
 chromadb
@@ -8,7 +7,7 @@ google-genai==1.26.0
 google.api_core
 pytesseract
 transformers
-PyMuPDF
 dotenv
+
 
 
