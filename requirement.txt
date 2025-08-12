@@ -1,3 +1,4 @@
+python-3.10.12
 streamlit 
 git+https://github.com/pymupdf/PyMuPDF.git@master
 llama-index
@@ -9,5 +10,6 @@ pytesseract
 transformers
 
 dotenv
+
 
 
