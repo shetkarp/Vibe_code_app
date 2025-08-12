@@ -1,7 +1,6 @@
 python-3.10.12
-pip install vendor/pymupdf-1.26.3-cp39-abi3-win_amd64.whl
-PyMuPDF
-streamlit==1.32.0
+streamlit
+git+https://github.com/pymupdf/PyMuPDF.git
 pandas==2.2.1
 git+https://github.com/pymupdf/PyMuPDF.git@master
 llama-index
@@ -12,6 +11,7 @@ google.api_core
 pytesseract
 transformers
 dotenv
+
 
 
 
