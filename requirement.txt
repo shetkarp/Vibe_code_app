@@ -1,5 +1,5 @@
-fitz
 streamlit 
+git+https://github.com/pymupdf/PyMuPDF.git
 llama-index
 pdfplumber
 chromadb
@@ -7,4 +7,5 @@ google-genai==1.26.0
 google.api_core
 pytesseract
 transformers
+
 dotenv
