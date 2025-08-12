@@ -1,5 +1,6 @@
 streamlit
 PyMuPDF 
+fitz
 llama-index
 pdfplumber
 chromadb
@@ -8,6 +9,7 @@ google.api_core
 pytesseract
 transformers
 dotenv
+
 
 
 
