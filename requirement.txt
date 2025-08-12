@@ -1,6 +1,7 @@
 python-3.10.12
-streamlit
 PyMuPDF
+streamlit==1.32.0
+pandas==2.2.1
 git+https://github.com/pymupdf/PyMuPDF.git@master
 llama-index
 pdfplumber
@@ -9,8 +10,8 @@ google-genai==1.26.0
 google.api_core
 pytesseract
 transformers
-
 dotenv
+
 
 
 
