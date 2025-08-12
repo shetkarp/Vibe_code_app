@@ -1,6 +1,5 @@
 streamlit 
-pip install git+https://github.com/pymupdf/PyMuPDF.git
-
+git+https://github.com/pymupdf/PyMuPDF.git@master
 llama-index
 pdfplumber
 chromadb
@@ -10,4 +9,5 @@ pytesseract
 transformers
 
 dotenv
+
 
