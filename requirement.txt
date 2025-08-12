@@ -1,5 +1,5 @@
 PyMuPDF
-fitz
+
 streamlit 
 llama-index
 pdfplumber
@@ -10,4 +10,5 @@ pytesseract
 transformers
 PyMuPDF
 dotenv
+
 
