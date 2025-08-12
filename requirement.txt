@@ -1,4 +1,5 @@
 python-3.10.12
+pip install vendor/pymupdf-1.26.3-cp39-abi3-win_amd64.whl
 PyMuPDF
 streamlit==1.32.0
 pandas==2.2.1
@@ -11,6 +12,7 @@ google.api_core
 pytesseract
 transformers
 dotenv
+
 
 
 
