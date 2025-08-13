@@ -6,10 +6,11 @@ from chromadb import Documents, EmbeddingFunction, Embeddings
 from google.api_core import retry
 import chromadb
 
+Gemini_Key = "AIzaSyB0giFpRn5roQqlOeCNqBTgRD4R_YUfkJg"
 load_dotenv()
 api_key = os.getenv("GEMINI_KEY")
 
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=Gemini_Key)
 
 is_retriable = lambda e: (isinstance(e, errors.APIError) and e.code in {429, 503})
 
