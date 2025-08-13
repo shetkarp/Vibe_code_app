@@ -1,7 +1,5 @@
-python-3.10.12
+python-3.12
 streamlit
-git+https://github.com/pymupdf/PyMuPDF.git
-pandas==2.2.1
 git+https://github.com/pymupdf/PyMuPDF.git@master
 llama-index
 pdfplumber
