@@ -1,3 +1,6 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 import logging
 import os
@@ -5,7 +8,6 @@ import tempfile
 import fitz # PyMuPDF
 import hashlib
 import json
-
 # Ensure these imports are correct and available
 from task4 import extract_searchable_content
 from task5 import extract_image_content
