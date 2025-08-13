@@ -4,10 +4,10 @@ import google.generativeai as genai
 from google.generativeai import GenerativeModel
 from dotenv import load_dotenv
 import os
-
-load_dotenv()
-api_key = os.getenv("GEMINI_KEY")
-genai.configure(api_key=api_key)
+Gemini_Key = "AIzaSyB0giFpRn5roQqlOeCNqBTgRD4R_YUfkJg"
+#load_dotenv()
+#api_key = os.getenv("GEMINI_KEY")
+genai.configure(api_key=Gemini_Key)
 
 # Initialize the model once for efficiency
 model = GenerativeModel("gemini-2.5-flash") # gemini-1.5-flash is more capable of structured output
